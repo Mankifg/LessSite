@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <style>
+        body, html {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        canvas {
+            -webkit-tap-highlight-color: transparent;
+            height: 80%;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+	<canvas id="canvas"></canvas>
+    <p id="gameid"></p>
+    <p id="mp">Move power: </p>
+    <p id="move">move: </p>
+    <p id="info">Info: </p>
+    
+    
+
+    <button onclick="new_game()">New game</button>
+    <button onclick="join_game()">Join game</button>
+
+</body>
+
+</html>

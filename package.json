@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "Simple template for webpages using nodejs built with webpack",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptr-geeks/nodejs-template.git"
+  },
+  "private": true,
+  "author": "ptr-geeks",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
